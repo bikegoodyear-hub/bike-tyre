@@ -836,7 +836,7 @@ const ProductGravelPage = ({ attributeValues, image, variants }: any) => {
       {/* ---------------- RANGE OVERVIEW TABLE ---------------- */}
       <section className="bg-white border border-gray-200 rounded-[18px] shadow-sm mb-24 overflow-hidden">
         <div className="px-6 py-5 border-b border-gray-200 bg-gray-50/50 flex items-center justify-between">
-          <h2 className="text-xl font-bold uppercase tracking-wider text-gray-900 text-center sm:text-left">
+          <h2 className="text-md md:text-xl font-bold uppercase tracking-wider text-gray-900 text-center sm:text-left">
             Range Overview
           </h2>
         </div>

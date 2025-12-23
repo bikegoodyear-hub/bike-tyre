@@ -168,18 +168,18 @@ export default function RoadPage() {
     <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 h-full grid lg:grid-cols-2 gap-12 items-center">
       {/* LEFT CONTENT */}
       <div className="max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
-        <p className="text-white/80 text-sm tracking-[0.2em] uppercase">
+        <p className="text-white/80 text-sm tracking-[0.2em] uppercase text-start">
           Road · Precision · Speed
         </p>
 
-        <h1 className="mt-4 text-white font-medium tracking-tight leading-[1] text-4xl sm:text-5xl md:text-[100px]">
+        <h1 className="mt-4 text-white font-medium tracking-tight leading-[1] text-5xl text-start sm:text-5xl md:text-[100px]">
           ROAD
           <span className="block text-white/90 font-black text-3xl sm:text-4xl md:text-5xl font-bold mt-2">
             TIRES.
           </span>
         </h1>
 
-        <p className="mt-5 text-white/85 leading-relaxed text-sm sm:text-base md:text-lg">
+        <p className="mt-5 text-white/85 leading-relaxed text-sm sm:text-base md:text-lg text-start">
           A history of movement – The Eagle and Vector names are steeped in
           sporting pedigree, the Goodyear range of Road tires come with the
           technology and wealth of experience no other tire can match.
@@ -564,17 +564,7 @@ export default function RoadPage() {
           {/* ICON */}
           <span
             className={classNames(
-              `
-              shrink-0
-              h-9 w-9
-              sm:h-10 sm:w-10
-              md:h-11 md:w-11
-              rounded-full
-              border
-              flex items-center justify-center
-              text-base sm:text-lg
-              font-semibold
-              transition
+              `shrink-0 h-10 w-10 sm:h-10 sm:w-10 md:h-11 md:w-11 rounded-full border flex items-center justify-center text-[28px] flex items-center  font-semibold transition
             `,
               isOpen
                 ? "border-black bg-black text-white"
