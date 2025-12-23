@@ -495,3 +495,11 @@ h2{
 }
 
 
+
+@media screen and (max-width: 768px) {
+ h2{
+  font-size: 28px !important;
+  font-weight: 400 !important;
+}
+  
+}
